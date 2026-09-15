@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      
+   <form action="" method="">
+
+
+      <label for="nome">nome completo: </label>
+
+
+      <input type="text" id="nome" placeholder="Insira o nome">
+      <br>
+
+
+      <label for="datanasc">Data de nascimento </label>
+      <input id="datanasc" type="date"/>
+      <br>
+
+      <label for="indica">vc nos indicaria? </label>
+      <input id="indica" type="number" min="1" max="5"/>
+      <br>
+
+      <label for="cor">Cor Favorita: </label>
+      <input id="cor" type="color"/>
+      <br>
+
+      <label for="volume">Em qual volume vc escuta musica: (0 a 100) </label>
+      <input id="volume" type="range" min="0" max="100"/>
+      <br>
+
+      <hr>
+
+      <fieldset>
+          
+           <legend>Genero</legend>
+           <input type="radio" id="masc" name="genero"/>
+           <label for="masc">Masculino</label>
+
+           <input type="radio" id="fem" name="genero"/>
+           <label for="fem">Femanino</label>
+
+           <input type="radio" id="outros" name="genero"/>
+           <label for="outros">Outros</label>
+
+           <input type="radio" id="trans" name="genero"/>
+           <label for="trans">Transformers</label>
+
+           <input type="radio" id="g" name="genero"/>
+           <label for="g">geladeira eletrolux</label>
+
+      </fieldset>
+      <br>
+      <hr>
+      <fieldset>
+           <legend>Monte seu lanche</legend>
+           
+           <input type="checkbox" id="salada"/>
+           <label for="salada">Salada</label>
+
+           <input type="checkbox" id="hamburguer"/>
+           <label type="hammburguer">Hamburguer</label>
+
+           <input type="checkbox" id="bacon"/>
+           <label type="bacon">Bacon</label>
+
+           <input type="checkbox" id="maionese"/>
+           <label type="maionese">Maionese</label>
+      </fieldset>
+
+      <br><hr>
+
+      <label for="info">Informações adicionais: </label>
+      <textarea id="info"></textarea>
+      
+      <hr>
+      <label for="senha">Senha: </label>
+      <input id="senha" type="password">
+      
+      <br>
+      <hr>
+
+      <label for="cidade">Informe a sua cidade</label>
+      <select id="cidade">
+        <option>Jaguariuna</option>
+        <option>Pedreira</option>
+        <option>Amparo</option>
+        <option>Serra Negra</option>
+      </select>
+      <input type="reset" value="Limpar form"/>
+      <input type="submit"/>
+
+    </form>   
+
+</body>
+</html>

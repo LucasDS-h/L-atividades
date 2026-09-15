@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contas basicas</title>
+</head>
+<body>
+
+    <h1>calculos LS</h1>
+
+    <label for="n1">numero</label>
+          <input type="number" id="n1">
+
+    <br>
+
+    <label for="n2">numero</label>
+          <input type="number" id="n2">
+
+    <br>
+                   <button onclick="somar()">somar</button>
+
+                   <button onclick="restar()">restar</button>
+
+                   <button onclick="multiplicar()">multiplicar</button>
+
+                   <button onclick="dividir()">dividir</button>
+
+    <p id="resultado"></p>
+
+    <script>
+
+        function somar() {
+            const CN1 = Number(document.getElementById("n1").value);
+
+            const CN2 = Number(document.getElementById("n2").value);
+
+                 const resultado = CN1 + CN2;
+
+                 document.getElementById("resultado").textContent =
+                  "resultado: " + resultado.toFixed(2);
+
+     
+        }
+
+        function restar() {
+            const CN1 = Number(document.getElementById("n1").value);
+
+            const CN2 = Number(document.getElementById("n2").value);
+
+                 const resultado = CN1 - CN2;
+
+                 document.getElementById("resultado").textContent =
+                  "resultado: " + resultado.toFixed(2);
+
+     
+        }
+
+        function multiplicar(){
+            const CN1 = Number(document.getElementById("n1").value);
+
+            const CN2 = Number(document.getElementById("n2").value);
+
+                 const resultado = CN1 * CN2;
+
+                 document.getElementById("resultado").textContent =
+                  "resultado: " + resultado.toFixed(2);
+
+
+        }
+
+        function dividir(){
+            const CN1 = Number(document.getElementById("n1").value);
+
+            const CN2 = Number(document.getElementById("n2").value);
+
+            console.log()
+
+                 if (CN1 === 0) {
+                    document.getElementById("resultado").textContent = 
+                    "não pode dividir por 0";
+                 } else if (CN2 === 0) {
+                    document.getElementById("resultado").textContent = 
+                    "não pode dividir por 0";
+
+                    return;
+                 } 
+
+                 const resultado = CN1 / CN2;
+
+                 document.getElementById("resultado").textContent =
+                     "resultado: " + resultado.toFixed(2);
+
+
+                 }
+
+        </script>
+
+</body>
+</html>

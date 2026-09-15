@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url(helldivers.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    padding: 80px;
+    border-radius: 10px;
+}
+
+label {
+    color: yellow;
+    margin: 20px;
+    padding: 30px;
+}
+
+input {
+    background-color: antiquewhite;
+    padding: auto;
+    margin: 20px;
+}
+
+select {
+    background-color: antiquewhite;
+}
+
+button {
+    background-color: antiquewhite;
+    padding: 20px;
+
+
+}
