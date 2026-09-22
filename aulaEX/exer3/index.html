@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>caixa de batatas</title>
+</head>
+<body>
+    <center>
+        <h1>caixa de papas</h1>
+        <form action="caixinha">
+            <label for="preco">Preço</label>
+            <input type="number" id="preco" placeholder="0">
+            <br><br>
+
+            <label for="quanti">Quantidade</label>
+            <input type="number" id="quanti" placeholder="0">
+            <br><br>
+
+            <select id="pagamento" name="pagamendo" required>
+                <option id="pix">pix</option>
+                <option id="dinheiro">Dinheiro</option>
+                <option id="cartao">Cartão</option>
+            </select>
+            <br><br>
+
+            <button type="button" onclick="calcularPagamento()">pagar</button>
+
+        </form>
+
+        <h2>Toma seu bateito</h2>
+
+        <p id="Pagamentos"></p>
+    </center>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
