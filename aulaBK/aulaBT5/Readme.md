@@ -27,6 +27,12 @@ INVENTARIO:
 
 TECNOLOGIAS
 
+Node_module
+Json
+JavaScrits
+
+ROTAS
+
 <img width="156" height="243" alt="Captura de tela 2026-09-29 082503" src="https://github.com/user-attachments/assets/05524708-5d0c-483c-be35-4328e81a1a0d" />
 
 DADOS iniciais
