@@ -2,29 +2,16 @@
     {
         "id": 1,
         "cliente_id": 1,
-        "produto": "chia",
-        "preco": 30,
-        "quantidade": 2
+        "data":"2026-09-29"
     },
     {
         "id": 2,
-        "cliente_id": 1,
-        "produto": "platino",
-        "preco": 45,
-        "quantidade": 2
+        "cliente_id": 2,
+        "data":"2026-09-29"
     },
     {
         "id": 3,
-        "cliente_id": 2,
-        "produto": "chia",
-        "preco": 30,
-        "quantidade": 1
-    },
-    {
-        "id": 4,
         "cliente_id": 3,
-        "produto": "platino",
-        "preco": 45,
-        "quantidade": 3
+        "data":"2026-09-29"
     }
 ]

@@ -1,26 +1,26 @@
-const pedidos = require("../../dados/pedidos.json")
+const items = require("../../dados/items.json")
 
 function subtotais () {
-    pedidos.forEach ( p => {
+    items.forEach ( p => {
         p.subtotais = p.quantidade * p.preco
     })
 }
 
 const listar = (req, res) => {
     subtotais();
-    res.json(pedidos)}
+    res.json(items)}
 
 const criar = (req, res) => {
     const dados = req.body;
-    dados.id = Number(pedidos[pedidos.length - 1].id) + 1
-    pedidos.push(dados)
+    dados.id = Number(items[items.length - 1].id) + 1
+    items.push(dados)
     res.status(201).json(dados)
 }
 const alterar = (req, res) => { 
     const id = req.params.id
     const dados = req.body
 
-    const busca = pedidos.find((dados) => dados.id == id)
+    const busca = items.find((dados) => dados.id == id)
 
     Object.keys(dados).forEach((i) => {
         busca[i] = dados[i]      
@@ -31,9 +31,9 @@ const alterar = (req, res) => {
 const excluir = (req, res) => { 
     const id = req.params.id
 
-    pedidos.forEach((pedido, indice) => {
-        if(pedido.id == id){
-            pedidos.splice(indice, 1)
+    items.forEach((item, indice) => {
+        if(item.id == id){
+            items.splice(indice, 1)
         }
     })
     res.send("poha foi que felicidade")
