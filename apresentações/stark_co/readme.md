@@ -52,7 +52,7 @@ Permite o consumidor explorar varias facetas de si mesmo testar varios conjuntos
  
   - Product Owner: Responsável por definir o que será construído e o porquê, gerenciando e priorizando a lista de pendências do produto
  
-  - Scrum Master: Atua como facilitador e treinador (coach), garantindo que as regras do Scrum sejam seguidas e removendo impedimentos da equipe
+  - Scrum Master: Atua como facilitador e treinador, garantindo que as regras do Scrum sejam seguidas e removendo impedimentos da equipe
  
   - Time de Desenvolvimento: Grupo multifuncional e auto-organizado responsável por executar as tarefas e entregar o incremento do produto
  
