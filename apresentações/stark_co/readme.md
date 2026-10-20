@@ -46,15 +46,17 @@ Permite o consumidor explorar varias facetas de si mesmo testar varios conjuntos
    
    - INSCRIÇÃO: uma janela para cadastrar os clientes filtrando seus dados, direcionar e informar atualizações dos produtos quanto os investimentos 
 
-- bancos de dados/Metodologia CRUD
+- Metodologia SCRUM
 
-   - publica os atuendo apartir da popularidade dela 
-
-   - atualiza a sengun os seu gosto que o usuario pesquisa
-
-   - altera eles se não são pesquisado
-
-   - os deleta se não cumprem uma media
+  - ela é usada por equipes para gerenciar e entregar projetos complexos de forma colaborativa por meio de ciclos curtos e iterativos dividindo o trabalho em:
+ 
+  - Product Owner: Responsável por definir o que será construído e o porquê, gerenciando e priorizando a lista de pendências do produto
+ 
+  - Scrum Master: Atua como facilitador e treinador (coach), garantindo que as regras do Scrum sejam seguidas e removendo impedimentos da equipe
+ 
+  - Time de Desenvolvimento: Grupo multifuncional e auto-organizado responsável por executar as tarefas e entregar o incremento do produto
+ 
+  - necessarios para organizar nosso trabalhos e facilitar o desenvolvimento do site e da empresa
 
 - cadastros
 
