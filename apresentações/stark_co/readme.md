@@ -32,7 +32,11 @@ permite os usuario escolher um inveztimento expecificos sobre tecnologias revolu
 - Estrutura
 
    - HUB: introdução do cliente para nossas ofertas e demandas do site
+
    - ORGANIZAÇÃO: onde as ofertas, links e as paginas do site são organizada e complementada
+
    - BANCO DE DADOS: estrutura que filtra qualquer informação guardando elas com backup caso tenha um problema
+
    - DESING: a parte visual do site/aparencia que é apresentado para o cliente
+   
    - INSCRIÇÃO: uma janela para cadastrar os clientes filtrando seus dados, direcionar e informar atualizações dos produtos quanto os investimentos 
