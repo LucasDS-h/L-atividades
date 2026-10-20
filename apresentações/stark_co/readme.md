@@ -46,9 +46,8 @@ Permite o consumidor explorar varias facetas de si mesmo testar varios conjuntos
    
    - INSCRIÇÃO: uma janela para cadastrar os clientes filtrando seus dados, direcionar e informar atualizações dos produtos quanto os investimentos 
 
-- bancos de dados
+- bancos de dados/Metodologia CRUD
 
-   - CRUD:
    - publica os atuendo apartir da popularidade dela 
 
    - atualiza a sengun os seu gosto que o usuario pesquisa
