@@ -4,7 +4,8 @@ Lucas.H, Julio, Pedro Takeo
 
 ### Empresa
 
-- descrição
+- descrição.
+
 É uma empresa destinada ao desenvolvimento da tecnologia em busca da evolução humana.
 
 - os temas principais que em consideração são mais relevantes
@@ -15,6 +16,7 @@ Lucas.H, Julio, Pedro Takeo
    - Componentes Hardware
 
 - caracteristica
+
 permite os usuario escolher um inveztimento expecificos sobre tecnologias revolucionarias/inovadoras dos seus patrocinadores.
 
 - Associados:
