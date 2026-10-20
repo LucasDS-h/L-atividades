@@ -1,31 +1,20 @@
-# Stark CO.
+# Galcio.
 
-Lucas.H, Julio, Pedro Takeo
+Lucas.H, Julio, Pedro Takeo, Pedro turolla, arthur.
 
 ### Empresa
 
 - descrição.
 
-É uma empresa destinada ao desenvolvimento da tecnologia em busca da evolução humana.
+É uma empresa multinacional dedicada na moda com  desenvolvimento tecnologico para implementar uma ia avanzada.
 
 - os temas principais que em consideração são mais relevantes
-   - maquinaria pesada
-   - transporte
+   - Modas
    - Inteligencia Artificial (IA)
-   - Robotica (exoesqueletos)
-   - Componentes Hardware
 
 - caracteristica
 
-permite os usuario escolher um inveztimento expecificos sobre tecnologias revolucionarias/inovadoras dos seus patrocinadores.
-
-- Associados:
-
-   - Komatsu
-   - Tesla
-   - Anthropic
-   - Cyberdyne
-   - Samsung
+Permite o consumidor explorar varias facetas de si mesmo testar varios conjuntos de ropas, com uma IA expecializada com a finalizade de fazer ums conjuntos em tempo real se baseando nos favoritos e nas ropas pesquisada pelo proprio usuario.
 
 ### site
 
