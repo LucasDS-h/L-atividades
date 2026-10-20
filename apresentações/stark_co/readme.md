@@ -48,7 +48,7 @@ Permite o consumidor explorar varias facetas de si mesmo testar varios conjuntos
 
 - Metodologia SCRUM
 
-  - ela é usada por equipes para gerenciar e entregar projetos complexos de forma colaborativa por meio de ciclos curtos e iterativos dividindo o trabalho em:
+  - escolhemos ela porque é usada por equipes para gerenciar e entregar projetos complexos de forma colaborativa por meio de ciclos curtos e iterativos dividindo o trabalho em:
  
   - Product Owner: Responsável por definir o que será construído e o porquê, gerenciando e priorizando a lista de pendências do produto
  
