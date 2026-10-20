@@ -6,7 +6,7 @@ Lucas.H, Julio, Pedro Takeo, Pedro turolla, arthur.
 
 - descrição.
 
-É uma empresa multinacional dedicada na moda com  desenvolvimento tecnologico para implementar uma ia avanzada.
+É uma empresa multinacional dedicada em varias modas com o desenvolvimento tecnologico para implementar uma ia avanzada.
 
 - os temas principais que em consideração são mais relevantes
    - Modas
