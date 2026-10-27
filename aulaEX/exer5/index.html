@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <h1>loja batata</h1>
+        <p>escolha o produto</p>
+    </header>
+
+    <main>
+        <section class="produtos">
+            <h2>produto disponivel</h2>
+
+        <div class="produto">
+            <h3>fone de zoreia</h3>
+            <p>preço: 89.00$</p>
+        
+            <button onclick="adicionarCarrinho('Fone de zoreia', 89.00)">Adicionar ao carrinho</button>
+        </div>
+
+        <div class="produto">
+            <h3>Mouse sem fio</h3>
+            <p>Preço: 59,90</p>
+
+            <button onclick="adicionarCarrinho('Muose sem fio', 89.00)">Adicionar ao carrinho</button>
+        </div>
+
+        </section>
+
+
+        <section class="carrinho">
+            <h2>Meu carrinho</h2>
+
+            <ul id="listaCarrinho"></ul>
+
+            <h3 id="total">Total: R$0,00</h3>
+
+            <button onclick="finalizarCompra()">Finalizar compra</button>
+            <button onclick="limparCarrinho()">limpar carrinho</button>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
